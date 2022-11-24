@@ -7,8 +7,7 @@ const permissions: HTMLElement = document.getElementById('permissions');
 const records: HTMLElement = document.getElementById('records');
 
 const gridfox = new GridfoxAPI({
-  apiKey:
-    'resources.KiHHuFhZD1vhn8XcWwriqIhWqR74cFO4htMGWaZEukjatKnO2zfpZjzf5sPvGf9E',
+  apiKey: '',
 });
 
 gridfox.tables.list().then((res) => {
